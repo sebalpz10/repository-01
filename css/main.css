@@ -1,8 +1,20 @@
+/* ----------ALL---------- */
+
 .body {
     background-color: #37465d;
 
     height: 100vh;
 }
+
+.none {
+    display: none;
+}
+
+/* ----------ALL---------- */
+
+
+
+/* ----------NAV---------- */
 
 .img-logo {
     height: 50px;
