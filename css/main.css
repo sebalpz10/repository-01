@@ -3,7 +3,7 @@
 .body {
     background-color: #37465d;
 
-    height: 100vh;
+    height: 100%;
 }
 
 .none {
@@ -35,6 +35,12 @@
     color: #ffffff;
 }
 
+/* ----------NAV---------- */
+
+
+
+/* ----------MAIN---------- */
+
 .img-clo {
     height: 400px;
 }
@@ -50,7 +56,101 @@
 
     text-align: center;
 
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: auto;
+    margin-bottom: 50px;
     margin-right: auto;
 }
+
+.sale {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    color: #ffffff;
+}
+
+.sale h2 {
+    font-size: 40px;
+}
+
+.img-grid {
+    height: 300px;
+
+    transition: all .5s ease;
+}
+
+.img-grid:hover {
+    transform: scale(1.1);
+}
+
+.col {
+    text-align: center;
+}
+
+.reco {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    color: #ffffff;
+}
+
+/* ----------MAIN---------- */
+
+/* ----------FOOTER---------- */
+
+.iconos-r {
+    width: 23px;
+    height: 23px;
+
+    align-items: center;
+
+    margin: 15px;
+}
+
+.iconos-f {
+    margin-top: 7px;
+}
+
+footer {
+    margin-top: 65px;
+
+    display: flex;
+    justify-content: space-between;
+
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 17px;
+}
+
+footer ul li {
+    list-style: none;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: #6c757d;
+
+    transition: all .1s ease;
+}
+
+footer ul li:hover {
+    color: #000000cd
+}
+
+.copy {
+    margin-left: 20px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+/* ----------FOOTER---------- */
