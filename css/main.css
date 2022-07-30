@@ -1,3 +1,9 @@
+.body {
+    background-color: #37465d;
+
+    height: 100vh;
+}
+
 .img-logo {
     height: 50px;
 
@@ -15,4 +21,24 @@
     background-color: #86b7fe;
 
     color: #ffffff;
+}
+
+.img-clo {
+    height: 400px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-edit {
+    width: 40%;
+
+    text-align: center;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
